@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-grim-gold: #d4b13c;
+  --color-grim-bg: #060a10;
+  --color-grim-panel: #0e1218;
+  --color-grim-panel-2: #171c26;
+  --color-grim-border: #1a1f2c;
+  --color-grim-text: #d5d5d7;
+  --color-grim-muted: #ada692;
+  --color-grim-dim: #4a4e5a;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #060a10;
+  color: #d5d5d7;
+  -webkit-font-smoothing: antialiased;
+}
