@@ -443,6 +443,7 @@ export default function Dashboard() {
                             "es",
                             {
                               month: "short",
+                              timeZone: "UTC",
                             },
                           ),
                           total: Number(item.total),
